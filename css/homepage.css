@@ -16,7 +16,6 @@
   margin: 0;
   padding: 0;
 }
-
 img {
   display: block;
 }
@@ -28,7 +27,6 @@ img {
   border:1px dashed #03cea4;
 
 }
-
 body {
   color: var(--primary-text-color);
   font-family: var(--main-font);
