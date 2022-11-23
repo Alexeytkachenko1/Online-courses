@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- ====HEADER==== -->
-    <button class="chat-button"></button>
+    <!-- <button class="chat-button"></button> -->
     <header class="header">
       
       <div class="container">
@@ -98,8 +98,8 @@
             </h1>
 
             <ul class="button-section list">
-              <li class="button-section-item-fill">
-                <button data-open-modal class="modal-btn-no-fill link" type="button" href="">About us</button>
+              <li class="button-section-item-about-us">
+                <button data-open-modal class="modal-btn-about-us modal-btn-no-fill link" type="button" href="">About us</button>
               </li>
               <li class="button-section-item">
                 <a class="modal-btn link" type="button" href="">Explore courses</a>
@@ -608,72 +608,128 @@
       <!-- ====TESTIMONIALS==== -->
       <section class="testimonials">
         <div class="container">
-          <h3 class="testimonials-title">TESTIMONIALS</h3>
-          <h2 class="testimonials-header">What our students say</h2>
-          <img src="./img/Testimonials/testimonial.png" alt="comment" />
-        </section>
+          <div class="testimonials-wrapper">
+
+            <h3 class="testimonials-title">TESTIMONIALS</h3>
+            <h2 class="testimonials-header">What our students say</h2>
+            <img class="testimonials-img" src="./img/Testimonials/testimonial.png" alt="comment" />
+          </div>
         </div> 
+        </section>
+      </div>
       
         <!-- ====BLOG==== -->
         <section class="blog">
-          <h3 class="blog-title">Our blog</h3>
-          <h2 class="blog-header">Latest posts</h2>
-          <a class="blog-link link" type="button" href="">Go to blog</a>
-          <ul class="blog-list list">
-            <li class="blog-list-item">
-              <img src="./img/Blog/1.jpg" alt="" />
-              <p class="blog-category">Marketing</p>
-              <p class="blog-date">September 4, 2020</p>
-              <p class="blog-time">36 min</p>
-              <h2 class="blog-subtitle">What is traffic arbitrage and does it really make money?</h2>
-              <p class="blog-description">
-                Pharetra, ullamcorper iaculis viverra parturient sed id sed.
-                Convallis proin dignissim lacus, purus gravida...
-              </p>
-              <h3 class="blog-jump">Listen</h3>
-            </li>
-            <li class="blog-list-item">
-              <img src="./img/Blog/2.jpg" alt="" />
-              <p class="blog-category">Management</p>
-              <p class="blog-date">August 25, 2020</p>
-              <p class="blog-time">45 min</p>
-              <h2 class="blog-subtitle">
-                What to do and who to talk to if you want to get feedback on the
-                product
-              </h2>
-              <p class="blog-description">
-                Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac
-                nibh urna urna sagittis faucibus...
-              </p>
-              <h3 class="blog-jump">Watch</h3>
-            </li>
-            <li class="blog-list-item">
-              <img src="./img/Blog/3.jpg" alt="" />
-              <p class="blog-category">Design</p>
-              <p class="blog-date">August 8, 2020</p>
-              <p></p>
-              <h2 class="blog-subtitle">
-                Should you choose a creative profession if you are attracted to
-                creativity?
-              </h2>
-              <p class="blog-description">
-                Curabitur nisl tincidunt eros venenatis vestibulum ac placerat.
-                Tortor, viverra sed vulputate ultrices...
-              </p>
-              <h3 class="blog-jump">Read</h3>
-            </li>
-          </ul>
-        </div>
+          <div class="container">
+
+            <h3 class="blog-title">Our blog</h3>
+            <div class="blog-header-section">
+              <h2 class="blog-header">Latest posts</h2>
+              <a class="blog-link modal-btn link" type="button" href="">Go to blog</a>
+            </div>
+         
+            <ul class="blog-list list">
+              <li class="blog-list-item">
+                <img src="./img/Blog/1.jpg" alt="" />
+                <a class="blog-list-media-link link" href="">
+                  <svg class="blog-list-media-svg">
+                    <use href="./img/sprite.svg#icon-mic"></use>
+                  </svg>Podcast
+                </a>
+
+                <div class="blog-events-wrapper">
+                  <p class="blog-category">Marketing</p>
+                  <svg class="blog-events-svg">
+                    <use  href="./img/sprite.svg#icon-calendar"></use>
+                  </svg>
+                  <p class="blog-date">September 4, 2020</p>
+                  <svg class="blog-events-svg">
+                    <use  href="./img/sprite.svg#icon-clock"></use>
+                  </svg>
+                  <p class="blog-time">36 min</p>
+                </div>
+                <h2 class="blog-subtitle">What is traffic arbitrage and does it really make money?</h2>
+                <p class="blog-description">
+                  Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+                  Convallis proin dignissim lacus, purus gravida...
+                </p>
+                <a href="" type="button" class="blog-jump link">Listen
+                 
+                </a>
+              </li>
+
+              <li class="blog-list-item">
+                <img src="./img/Blog/2.jpg" alt="" />
+                <a class="blog-list-media-link link" href="">
+                  <svg class="blog-list-media-svg">
+                    <use href="./img/sprite.svg#icon-video"></use>
+                  </svg>Video
+                </a>
+                <div class="blog-events-wrapper">
+                  <p class="blog-category">Management</p>
+              <svg class="blog-events-svg">
+                <use  href="./img/sprite.svg#icon-calendar"></use>
+              </svg>
+                  <p class="blog-date">August 25, 2020</p>
+                  <svg class="blog-events-svg">
+                    <use  href="./img/sprite.svg#icon-clock"></use>
+                  </svg>
+                  <p class="blog-time">45 min</p>
+                </div>
+                <h2 class="blog-subtitle">
+                  What to do and who to talk to if you want to get feedback on the
+                  product
+                </h2>
+                <p class="blog-description">
+                  Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac
+                  nibh urna urna sagittis faucibus...
+                </p>
+                <a href="" type="button" class="blog-jump link">Watch</a>
+              </li>
+              <li class="blog-list-item">
+                <img src="./img/Blog/3.jpg" alt="" />
+                <a class="blog-list-media-link link" href="">
+                  <svg class="blog-list-media-svg">
+                    <use href="./img/sprite.svg#icon-files"></use>
+                  </svg>Article
+                </a>
+                <div class="blog-events-wrapper">
+                  
+                  <p class="blog-category">Design</p>
+                  <svg class="blog-events-svg">
+                    <use  href="./img/sprite.svg#icon-calendar"></use>
+                  </svg>
+                  <p class="blog-date">August 8, 2020</p>
+                  <p></p>
+                </div>
+                <h2 class="blog-subtitle">
+                  Should you choose a creative profession if you are attracted to
+                  creativity?
+                </h2>
+                <p class="blog-description">
+                  Curabitur nisl tincidunt eros venenatis vestibulum ac placerat.
+                  Tortor, viverra sed vulputate ultrices...
+                </p>
+                <a href="" type="button" class="blog-jump link">Read</a>
+              </li>
+            </ul>
+          </div>
+        
         
       </section>
       <!-- ====SUBSCRIBE==== -->
       <section class="subscribe">
         <div class="container">
-          <h3 class="subscribe-title">Don’t miss anything</h3>
-          <h2 class="subscribe-header">Subscribe to the Createx School announcements</h2>
-          <a class="subscribe-link link" type="button" href="">Subscribe</a>
-          <img src="./img/Subscribe/illustration.png" alt="" />
-          <img src="./img/Subscribe/illustration.png" alt="" />
+          <div class="subscribe-wrapper">
+
+            <h3 class="subscribe-title">Don’t miss anything</h3>
+            <h2 class="subscribe-header">Subscribe to the Createx School announcements</h2>
+            <label for="email"></label>
+            <form class="subscribe-form">
+              <input class="subscribe-input" type="email" name="email" id="email" placeholder="Your working email">
+              <button class="subscribe-btn modal-btn"  type="submit" >Subscribe</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
@@ -685,7 +741,7 @@
           <div class="wrapper-social-links">
             <a class="footer-logo logo-link link" href="./Homepage.html" title="CreateX">
               <img
-                src="./img/Header/logo.png"
+                src="./img/Footer/logo.png"
                 alt="studio logo"
                 width="130"
                 height="22"
@@ -789,7 +845,7 @@
         </div>
     </div>
     </footer>
-    <!-- <script>
+    <script>
       const refs = {
         openModalBtn: document.querySelector("[data-open-modal]"),
         closeModalBtn: document.querySelector("[data-close-modal]"),
@@ -808,6 +864,6 @@
       function logBackdropClick() {
         console.log("Это клик в бекдроп");
       }
-    </script> -->
+    </script>
   </body>
 </html>
