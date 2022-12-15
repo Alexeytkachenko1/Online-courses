@@ -1,0 +1,83 @@
+.benefits {
+    padding-top: 90px;
+    padding-bottom: 120px;
+  }
+  .benefits-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  
+    color: var(--title-text-color);
+  }
+  .benefits-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 60px;
+  }
+  .benefits-list {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  
+  .benefits-list-link {
+    display: flex;
+    justify-content: center;
+    width: 307px;
+    height: 46px;
+  
+    border-radius: 4px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    align-items: center;
+    text-align: center;
+    color: var(--third-text-color);
+  }
+  
+  .benefits-list-link:hover,
+  .benefits-list-link:focus {
+    border: 1px solid #ff3f3a;
+    border-radius: 4px;
+    color: #ff3f3a;
+  }
+  .benefits-list-svg{
+    width: 16px;
+    height: 16px;
+    fill:var(--third-text-color);
+    margin-right: 8px;
+  
+  }
+  .benefits-list-link:hover .benefits-list-svg{
+    fill: var(--primary-red-color);
+  }
+  .benefits-practice {
+    display: flex;
+    align-items: center;
+  }
+  .benefits-practice-title {
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+  
+    color: var(--title-text-color);
+  }
+  .benefits-description {
+    margin-right: 135px;
+  }
+  .benefits-practice-description {
+    display: block;
+    width: 488px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  
+    color: var(--primary-text-color);
+  }

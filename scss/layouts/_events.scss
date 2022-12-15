@@ -1,0 +1,121 @@
+.events{
+  
+    background-image: url(../img/Events/background.png);
+    
+    padding: 80px 0;
+    background-position: bottom;
+    
+    }
+    
+    .events-title {
+      text-align: center;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+    
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    
+      color: #1e212c;
+    }
+    .subsection-events {
+      display: flex;
+      padding:33px 40px;
+      
+    }
+    .events-subtitle {
+      margin-bottom: 60px;
+      font-weight: 900;
+      font-size: 46px;
+      line-height: 130%;  
+      text-align: center;
+      color: #1e212c;
+    }
+    
+      .events-list-item{
+     background-color:var(--primary-white-color);}
+      
+      .events-list-item:not(:last-child){
+        margin-bottom: 24px;
+      }
+    .date-number{
+      margin-right: 20px;
+    }
+    .events-date-number {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 130%;
+    
+      letter-spacing: 1px;
+    
+      color: #ff3f3a;
+    }
+    .mounts-time{
+      width: 100px;
+      margin-right: 40px;
+    }
+    .events-mounts {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+    
+      color: var(--title-text-color);
+    }
+    .events-time {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+    
+      color: var(--secondary-text-color);
+    }
+    .events-meeting-description {
+    
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+    
+      color: var(--title-text-color);
+    }
+    .events-type {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+    
+      color: var(--secondary-text-color);
+    }
+    .events-view-more {
+      display: inline-block;
+      margin-left: auto;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 3.14;
+    
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: var(--primary-red-color);
+    
+      padding: 0px 30px;
+    
+      min-width: 136px;
+      height: 44px;
+      border: 1px solid var(--primary-red-color);
+    
+      border-radius: 4px;
+    }
+    .events-view-more:hover{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    color: var(--primary-white-color);
+    }
+    .events-footer{
+      margin-top: 65px;
+      display: flex;
+      justify-content: center;
+    }
+    .events-footer-title{
+     margin-right: 40px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    
+    color:var(--title-text-color);
+    }
