@@ -1,0 +1,28 @@
+// utils
+@import "./utils/_variables.scss";
+
+
+// base
+@import "./base/_common.scss";
+@import "./base/_container.scss";
+
+// components
+@import "./components/modal-btn";
+
+// layouts
+@import "./layouts/_header.scss";
+@import "./layouts/_header-hero.scss";
+@import "./layouts/about";
+@import "./layouts/courses";
+@import "./layouts/benefits";
+@import "./layouts/events";
+@import "./layouts/certificate";
+@import "./layouts/team";
+@import "./layouts/testimonials";
+@import "./layouts/blog";
+@import "./layouts/subcribe";
+@import "./layouts/footer";
+
+
+
+

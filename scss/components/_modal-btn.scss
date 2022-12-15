@@ -1,0 +1,38 @@
+  .modal-btn {
+    display: inline-block;
+    padding: 0px 40px;
+  
+    min-width: 160px;
+    height: 52px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 3.25;
+  
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+  
+    color:var(--primary-white-color);
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
+  }
+  .modal-btn-no-fill {
+    display: inline-block;
+    padding: 0px 40px;
+  
+    min-width: 160px;
+    height: 52px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 3.25;
+  
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+  
+    color:var(--primary-red-color);
+      border:2px solid var(--primary-red-color);
+    border-radius: 4px;
+  }

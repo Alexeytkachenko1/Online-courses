@@ -1,0 +1,63 @@
+.certificate{
+    
+    padding-top: 120px;
+    
+  }
+  .certificate-wrapper{
+    position: relative;
+    display: flex;
+  }
+  .certificate-benefits{
+    width: 397px;
+    padding-bottom: 120px;
+    margin-right: 135px;
+  }
+  
+  .certificate-title{
+    margin-bottom: 8px;
+  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  color:var(--title-text-color);
+  
+  }
+  
+  .certificate-header{
+    margin-bottom: 48px;
+  
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  
+  color:var(--title-text-color);
+  }
+  .certificate-description{
+    margin-bottom: 32px;
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  
+  color:var(--primary-text-color);
+  }
+  .certificate-list{
+    display: flex;
+  }
+  .certificate-list-item:not(:last-child){
+    margin-right: 40px;
+  }
+  .certificate-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 705px;
+    height: 500px;
+    background-image: url(../img/Certificate/image.png);
+  background-position: right;
+  }
